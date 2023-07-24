@@ -29,8 +29,6 @@ body {
             background-color: white;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             text-align: center;
-            margin: auto;
-            width: 50%;
         }
         footer {
             text-align: center;
@@ -64,10 +62,11 @@ input {
     margin-right: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    width: 35%;
+    width: 22%;
 }
 ul {
   list-style-type: none;
+  margin-right: 3em;
 }
 li{
     margin-bottom: 5%;
