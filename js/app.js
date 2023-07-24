@@ -25,11 +25,16 @@ function displayRecipes(recipes) {
         const recipe = item.recipe;
         const li = document.createElement('li');
         li.innerHTML = `
-            <a href="${recipe.url}" target="_blank">
-                <img src="${recipe.image}" alt="${recipe.label}">
-                <p>${recipe.label}</p>
-            </a>
+            <img src="${recipe.image}" alt="${recipe.label}">
+            <p>${recipe.label}</p>
+            <a href="${recipe.url}" class="button" id="viewRecipe" target="_blank">View Recipe</a> 
         `;
         list.appendChild(li);
     });
 }
+/*
+<a href="${recipe.url}" target="_blank">
+                <img src="${recipe.image}" alt="${recipe.label}">
+                <p>${recipe.label}</p>
+            </a>
+*/

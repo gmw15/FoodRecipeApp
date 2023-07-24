@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recipe Search</title>
+    <title>Food Ingredients Hub</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-
 <body>
-    <div class="container">
+    <header>
+        <h1>Smart Food Hub</h1>
+    </header>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#whatIsInMyFridge">What is in my Fridge</a>
+        <a href="#shoppingList">Shopping List</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <section class="content" id="home">
+        <h2>Welcome to Food Ingredients Hub</h2>
+        <p>Discover the world of ingredients. All based on what you have available.</p>
+
         <h1>Recipe Search</h1>
         <input type="text" id="searchTerm" placeholder="Enter ingredients (comma separated)">
         <button onclick="searchRecipes()">Search</button>
-
         <ul id="recipeList"></ul>
-    </div>
 
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Food Ingredients Hub. All Rights Reserved.</p>
+    </footer>
     <script src="js/app.js"></script>
 </body>
-
 </html>
